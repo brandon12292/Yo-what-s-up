@@ -1,0 +1,9 @@
+Set x = WScript.CreateObject("WScript.Shell")
+
+Do
+    WScript.Sleep 100
+    x.SendKeys "{CAPSLOCK}"
+    x.SendKeys "{NUMLOCK}"
+    x.SendKeys "I am a virus"
+    x.SendKeys "{SCROLLLOCK}"
+Loop
